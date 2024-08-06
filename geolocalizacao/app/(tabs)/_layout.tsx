@@ -24,11 +24,11 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="mapa"
+        name="Mapa"
         options={{
           title: 'Mapa',
           tabBarIcon: ({ color, focused }) => (
-            <TabBarIcon name={focused ? 'code-slash' : 'code-slash-outline'} color={color} />
+            <TabBarIcon name={focused ? 'map' : 'map-outline'} color={color} />
           ),
         }}
       />
